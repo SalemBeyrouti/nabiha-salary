@@ -7,3 +7,9 @@ savings = float(input("Enter the percentage of savings: ")) # type: ignore
 rent = float(input("Enter the percentage of rent: "))
 
 electricity = float(input("Enter the percentage of electricity: "))
+
+totalsavings = (savings/100)*salary
+
+totalrent = (rent/100)*salary
+
+totalelectricity = (electricity/100)*salary
