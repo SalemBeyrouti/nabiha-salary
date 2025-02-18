@@ -24,6 +24,13 @@ yearlyelectricity = totalelectricity*12
 
 salarysquared = salary*salary
 
+savedamount = 60
+if totalsavings > 0:
+    leftamount = savedamount/totalsavings
+else:
+    leftamount=0
+
+
 print("The amount allocated to savings: ", totalsavings  )
 print("The amount allocated to electricity: ", totalelectricity)
 print("The amount allocated to rent: ", totalrent)
@@ -32,3 +39,4 @@ print("The remainder salary: ", remaindersalary)
 print("Yearly rent: ", yearlyrent)
 print("Yearly electricity: ", yearlyelectricity)
 print("Salary squared just for fun: ", salarysquared)
+print("Amount left after extra savings: ", leftamount)
