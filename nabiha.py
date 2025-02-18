@@ -13,3 +13,13 @@ totalsavings = (savings/100)*salary
 totalrent = (rent/100)*salary
 
 totalelectricity = (electricity/100)*salary
+
+totalspending = totalrent + totalsavings + totalelectricity
+
+remaindersalary = salary - totalspending
+
+yearlyrent = totalrent*12
+
+yearlyelectricity = totalelectricity*12
+
+salarysquared = salary*salary
